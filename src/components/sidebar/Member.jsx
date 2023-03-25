@@ -1,5 +1,5 @@
 import React from "react";
-import Avatar from "../ui/Avatar";
+import { loadImage } from "../../utils/loadImage";
 
 const Member = ({ member }) => {
   const { name, avatar, id } = member;
@@ -7,7 +7,7 @@ const Member = ({ member }) => {
   return (
     <div class="mt-3 space-y-4">
       <div class="checkbox-container">
-        <Avatar imgUrl={avatar} />
+        <img src={loadImage(avatar)} class="team-avater" />
         <p class="label">{name}</p>
       </div>
     </div>

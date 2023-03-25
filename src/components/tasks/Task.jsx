@@ -5,7 +5,7 @@ import {
   useDeleteTaskMutation,
   useEditTaskMutation,
 } from "../../features/tasks/tasksApi";
-import Avatar from "../ui/Avatar";
+import { loadImage } from "../../utils/loadImage";
 import DeleteButton from "./DeleteButton";
 import EditButton from "./EditButton";
 
@@ -64,7 +64,7 @@ const Task = ({ task }) => {
 
       <div class="flex items-center gap-4">
         <div class="flex items-center gap-2">
-          <Avatar imgUrl={teamMember.avatar} />
+          <img src={loadImage(teamMember.avatar)} class="team-avater" />
           <p class="lws-task-assignedOn">{teamMember.name}</p>
         </div>
         {updatedStatus === "complete" ? (
