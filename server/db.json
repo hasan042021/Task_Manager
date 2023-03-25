@@ -1,0 +1,281 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "projectName": "Scoreboard",
+      "colorClass": "color-scoreboard"
+    },
+    {
+      "id": 2,
+      "projectName": "Flight Booking",
+      "colorClass": "color-flight"
+    },
+    {
+      "id": 3,
+      "projectName": "Product Cart",
+      "colorClass": "color-productCart"
+    },
+    {
+      "id": 4,
+      "projectName": "Book Store",
+      "colorClass": "color-bookstore"
+    },
+    {
+      "id": 5,
+      "projectName": "Blog Application",
+      "colorClass": "color-blog"
+    },
+    {
+      "id": 6,
+      "projectName": "Job Finder",
+      "colorClass": "color-jobFinder"
+    }
+  ],
+  "team": [
+    {
+      "name": "Sumit Saha",
+      "avatar": "/images/avatars/sumit.png",
+      "id": 1
+    },
+    {
+      "name": "Saad Hasan",
+      "avatar": "/images/avatars/sadh.png",
+      "id": 2
+    },
+    {
+      "name": "Akash Ahmed",
+      "avatar": "/images/avatars/akash.png",
+      "id": 3
+    },
+    {
+      "name": "Md Salahuddin",
+      "avatar": "/images/avatars/salahuddin.png",
+      "id": 4
+    },
+    {
+      "name": "Riyadh Hassan",
+      "avatar": "/images/avatars/riyadh.png",
+      "id": 5
+    },
+    {
+      "name": "Ferdous Hassan",
+      "avatar": "/images/avatars/ferdous.png",
+      "id": 6
+    },
+    {
+      "name": "Arif Almas",
+      "avatar": "/images/avatars/almas.png",
+      "id": 7
+    }
+  ],
+  "tasks": [
+    {
+      "taskName": "Task One",
+      "teamMember": {
+        "name": "Saad Hasan",
+        "avatar": "/images/avatars/sadh.png",
+        "id": 2
+      },
+      "project": {
+        "id": 1,
+        "projectName": "Scoreboard",
+        "colorClass": "color-scoreboard"
+      },
+      "deadline": "2023-03-15",
+      "id": 1,
+      "status": ""
+    },
+    {
+      "taskName": "Task Two",
+      "teamMember": {
+        "name": "Arif Almas",
+        "avatar": "/images/avatars/almas.png",
+        "id": 7
+      },
+      "project": {
+        "id": 2,
+        "projectName": "Flight Booking",
+        "colorClass": "color-flight"
+      },
+      "deadline": "2023-03-23",
+      "id": 2,
+      "status": "inProgress"
+    },
+    {
+      "taskName": "Task Three",
+      "teamMember": {
+        "name": "Akash Ahmed",
+        "avatar": "/images/avatars/akash.png",
+        "id": 3
+      },
+      "project": {
+        "id": 5,
+        "projectName": "Blog Application",
+        "colorClass": "color-blog"
+      },
+      "deadline": "2023-03-03",
+      "id": 3,
+      "status": ""
+    },
+    {
+      "taskName": "New Task 2",
+      "teamMember": {
+        "name": "Sumit Saha",
+        "avatar": "/images/avatars/sumit.png",
+        "id": 1
+      },
+      "project": {
+        "id": 2,
+        "projectName": "Flight Booking",
+        "colorClass": "color-flight"
+      },
+      "deadline": "2023-03-17",
+      "id": 4,
+      "status": ""
+    },
+    {
+      "taskName": "New Task 2",
+      "teamMember": {
+        "name": "Akash Ahmed",
+        "avatar": "/images/avatars/akash.png",
+        "id": 3
+      },
+      "project": {
+        "id": 2,
+        "projectName": "Flight Booking",
+        "colorClass": "color-flight"
+      },
+      "deadline": "2023-03-10",
+      "id": 5,
+      "status": ""
+    },
+    {
+      "taskName": "New Task 2",
+      "teamMember": {
+        "name": "Saad Hasan",
+        "avatar": "/images/avatars/sadh.png",
+        "id": 2
+      },
+      "project": {
+        "id": 4,
+        "projectName": "Book Store",
+        "colorClass": "color-bookstore"
+      },
+      "deadline": "2023-03-24",
+      "status": "",
+      "id": 6
+    },
+    {
+      "taskName": "New Task 2",
+      "teamMember": {
+        "name": "Sumit Saha",
+        "avatar": "/images/avatars/sumit.png",
+        "id": 1
+      },
+      "project": {
+        "id": 2,
+        "projectName": "Flight Booking",
+        "colorClass": "color-flight"
+      },
+      "deadline": "2023-03-10",
+      "status": "",
+      "id": 7
+    },
+    {
+      "taskName": "New Task 2",
+      "teamMember": {
+        "name": "Akash Ahmed",
+        "avatar": "/images/avatars/akash.png",
+        "id": 3
+      },
+      "project": {
+        "id": 3,
+        "projectName": "Product Cart",
+        "colorClass": "color-productCart"
+      },
+      "deadline": "2023-03-10",
+      "status": "",
+      "id": 9
+    },
+    {
+      "taskName": "Implement JSON server",
+      "teamMember": {
+        "name": "Saad Hasan",
+        "avatar": "/images/avatars/sadh.png",
+        "id": 2
+      },
+      "project": {
+        "id": 2,
+        "projectName": "Flight Booking",
+        "colorClass": "color-flight"
+      },
+      "deadline": "2023-03-04",
+      "status": "",
+      "id": 10
+    },
+    {
+      "taskName": "New Task 134",
+      "teamMember": {
+        "name": "Sumit Saha",
+        "avatar": "/images/avatars/sumit.png",
+        "id": 1
+      },
+      "project": {
+        "id": 1,
+        "projectName": "Scoreboard",
+        "colorClass": "color-scoreboard"
+      },
+      "deadline": "2023-03-04",
+      "status": "complete",
+      "id": 11
+    },
+    {
+      "taskName": "Implement JSON server",
+      "teamMember": {
+        "name": "Saad Hasan",
+        "avatar": "/images/avatars/sadh.png",
+        "id": 2
+      },
+      "project": {
+        "id": 1,
+        "projectName": "Scoreboard",
+        "colorClass": "color-scoreboard"
+      },
+      "deadline": "2023-03-03",
+      "status": "",
+      "id": 12
+    },
+    {
+      "taskName": "Implement JSON server",
+      "teamMember": {
+        "name": "Saad Hasan",
+        "avatar": "/images/avatars/sadh.png",
+        "id": 2
+      },
+      "project": {
+        "id": 2,
+        "projectName": "Flight Booking",
+        "colorClass": "color-flight"
+      },
+      "deadline": "2023-03-17",
+      "status": "",
+      "id": 13
+    },
+    {
+      "taskName": "Implement JSON server",
+      "teamMember": {
+        "name": "Saad Hasan",
+        "avatar": "/images/avatars/sadh.png",
+        "id": 2
+      },
+      "project": {
+        "id": 2,
+        "projectName": "Flight Booking",
+        "colorClass": "color-flight"
+      },
+      "deadline": "2023-03-17",
+      "status": "",
+      "id": 14
+    }
+  ]
+}
